@@ -1,0 +1,41 @@
+.table .secondtitle {
+  font-size: 33px;
+  padding: 15px 0;
+}
+.table {
+  border-collapse: collapse;
+  width: 500px;
+  font-size: 18px;
+  table-layout: fixed;
+}
+
+.table th,
+.table td {
+  border: 3px solid white;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.table .good {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.table .neutral {
+  background-color: #ccc;
+  color: #6c757d;
+}
+
+.table .bad {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+.table .total {
+  background-color: #f0f1b9;
+  color: #c3c60b;
+}
